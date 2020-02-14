@@ -195,13 +195,61 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0
-  }  
+  },  
+  {
+    id: 17,
+    title: "WHEEL HUBS BEARINGS",
+    img: "img/wheel_hubs-comma-_bearings-comma-_and_components.jpg",
+    price: 200,
+    company: "NAKAMURA",
+    info:
+      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 18,
+    title: "OIL LEVEL SENSOR",
+    img: "img/oil_level_sensor.jpg",
+    price: 200,
+    company: "NAKAMURA",
+    info:
+      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 19,
+    title: "OIL PUMB",
+    img: "img/oil_pump.jpg",
+    price: 200,
+    company: "NAKAMURA",
+    info:
+      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 20,
+    title: "OFF ROAD LIGHTS",
+    img: "img/off-road_lighting.jpg",
+    price: 200,
+    company: "NAKAMURA",
+    info:
+      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+    inCart: false,
+    count: 0,
+    total: 0
+  }
 ];
 
 export const detailProduct = {
   id: 1,
-  title: "Car Care - Carexperts",
-  img: "img/pexels.jpeg",
+  title: "CLUTCH FLYWHEELS - Carexperts",
+  img: "img/clutches-comma-_flywheels_-and-_components",
   price: 10,
   company: "CAReXPERTS",
   info:

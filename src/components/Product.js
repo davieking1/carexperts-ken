@@ -13,9 +13,7 @@ export default class Product extends Component {
 					<ProductConsumer>
 					{value => (
 						<div className="img-container p-5" 
-							onClick={() =>
-							value.handleDetail(id) 
-							}
+							onClick={() => value.handleDetail(id)}
 						>
 						<Link to="/details">
 							<img src={img} alt="product" className="card-img-top" />
@@ -23,16 +21,17 @@ export default class Product extends Component {
 						<button className="cart-btn" 
 						disabled={inCart ? true : false} 
 						onClick={() => {
-							value.addTocart(id);
+							value.addToCart(id);
+							value.openModal(id);
 						}}
 						>
 						{inCart ? (
 							<p className="text-capitalize mb-0" disabled>
 							{" "}
-							in inCart
+							in cart
 							</p>
 							) : (
-							<i className="fas fa-cart-plus"></i>
+							<i className="fas fa-cart-plus" />
 							)}
 						</button>
 
@@ -96,7 +95,7 @@ const ProductWrapper = styled.div`
 .img-container:hover .card-img-top {
 	transform: scale(1.2);
 }
-cart-btn {
+.cart-btn {
 	position: absolute;
 	bottom: 0;
 	right: 0;
